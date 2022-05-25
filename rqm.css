@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --bg-color: rgb(175, 171, 171);
+}
+
+*{
+    margin: 0 0 auto;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    background-color:var(--bg-color);
+}
+#quote-box{
+
+    position: relative;
+    margin: 10% auto;
+    width: 600px;
+    height: 280px;
+    background-color: whitesmoke;
+    border-radius: 1.5rem;;
+}
+
+#new-quote{
+   width: 120px  !important;
+   height: 40px;
+   position:relative;
+   margin-left: 75%;
+   margin-top: 2rem;
+   border-color: transparent;
+   background-color: rgb(125, 125, 125);
+   color: rgb(16, 151, 46);
+
+}
+
+
+#tweet-quote{
+    position:fixed;
+    width: 2rem;
+    position: relative;
+    padding-left: 1.5rem;
+    bottom: 18%;
+
+}
+
+
+#text{
+    text-align: center;
+    padding-top: 20px;
+}
+#author{
+    margin-top: 40px;
+    padding-right: 2rem;
+    text-align: right;
+    padding-bottom: 1rem;
+    
+}
+#logo:hover{
+    transform: scale(1.1);
+}
+
+#logo{
+    color: rgb(0, 0, 0);
+}
